@@ -6,7 +6,7 @@
   --muted: #a6a9ad;
   --line: rgba(255,255,255,.10);
   --accent: #d9e2c8;
-  --accent-dark: #8e9a7b;
+  --accent-dark: #288aa6;
   --max: 1180px;
   --radius: 18px;
   --shadow: 0 22px 70px rgba(0,0,0,.28);
@@ -135,6 +135,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 /* Real screenshots */
 .shot { margin: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #0f1114; }
 .shot img { width: 100%; height: 100%; object-fit: cover; }
+.shot video { width: 100%; height: 100%; object-fit: cover; display: block; }
 .hero-shot { margin-top: 45px; aspect-ratio: 16/9; box-shadow: var(--shadow); }
 .media-grid .shot { aspect-ratio: 16/9; }
 .media-grid .shot.wide { grid-column: 1 / -1; aspect-ratio: 2/1; }
